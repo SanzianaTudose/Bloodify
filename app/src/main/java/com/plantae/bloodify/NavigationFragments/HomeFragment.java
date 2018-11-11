@@ -1,11 +1,14 @@
 package com.plantae.bloodify.NavigationFragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.plantae.bloodify.BloodDetailsActivity;
+import com.plantae.bloodify.MainActivity;
 import com.plantae.bloodify.R;
 
 public class HomeFragment extends Fragment {

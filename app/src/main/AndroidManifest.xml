@@ -19,29 +19,46 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
-
-        <activity android:name=".ToolbarActivities.BenefitsActivity"
+        <activity
+            android:name=".ToolbarActivities.BenefitsActivity"
             android:label="@string/app_name"
             android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.plantae.bloodify.MainActivity" /></activity>
-
-        <activity android:name=".ToolbarActivities.LostObjectsActivity"
-            android:label="@string/app_name"
-            android:parentActivityName=".MainActivity">>
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.plantae.bloodify.MainActivity" /></activity>
-
-        <activity android:name=".ToolbarActivities.SettingsActivity"
-            android:label="@string/app_name"
-            android:parentActivityName=".MainActivity">>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.plantae.bloodify.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".ToolbarActivities.LostObjectsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.plantae.bloodify.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".ToolbarActivities.SettingsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.plantae.bloodify.MainActivity" />
+        </activity>
+
+        <activity android:name=".QRCodeActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".ToolbarActivities.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.plantae.bloodify.MainActivity" /> </activity>
+
+        <activity android:name=".BloodDetailsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.plantae.bloodify.MainActivity" /></activity>
 
     </application>
 

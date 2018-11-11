@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -82,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, SettingsActivity.class);
                 break;
         }
-
         startActivity(intent);
 
         return true;
@@ -97,5 +97,10 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return false;
+    }
+
+    public void launchBloodDetailsActivity(View view) {
+        Intent intent = new Intent(this, BloodDetailsActivity.class);
+        startActivity(intent);
     }
 }
