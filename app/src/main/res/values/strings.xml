@@ -24,4 +24,25 @@
     <string name="info_content2">La o donare se recolteaza 450 ml de sange, cantitate ce se reface ca volum in cateva ore, celular in 2 saptamani.</string>
     <string name="info_header3">Ce avantaje are un donator?</string>
     <string name="info_content3">1. Orice donator are dreptul sa primeasca, la cerere, un buletin de analiza cu rezultatele testelor efectuate. \n2. Donatorii de sange ce doneaza periodic au dreptul sa efectueze un examen radiologic si unul biologic gratuit, in fiecare an.</string>
+    <string name="grupa_sanguina">Grupa sanguina</string>
+    <string name="notificari">Vrei sa primesti notificari?</string>
+    <string name="sunet">Opreste sunetul notificarilor?</string>
+    <string-array name="grupe_array">
+        <item>0</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="semn_array">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="danu_array">
+    <item>DA</item>
+    <item>NU</item>
+    </string-array>
+
+
 </resources>
