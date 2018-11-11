@@ -14,9 +14,12 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="19dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:text="421 puncte"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -24,16 +27,19 @@
         <Button
             android:id="@+id/button"
             style="@android:style/Widget.DeviceDefault.Light.Button"
-            android:layout_width="148dp"
-            android:layout_height="113dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="196dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="AB-"
+            android:background="@drawable/button_background"
             android:onClick="launchBloodDetailsActivity"
+            android:text="AB-"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="70sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
