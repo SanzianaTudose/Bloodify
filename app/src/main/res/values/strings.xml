@@ -2,7 +2,7 @@
     <string name="app_name">Bloodify</string>
     <string name="login">Login</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Acasa</string>
     <string name="title_leaderboard">Leaderboard</string>
     <string name="title_events">Evenimente</string>
     <string name="title_info">Info</string>
