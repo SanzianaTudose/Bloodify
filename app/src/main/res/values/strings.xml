@@ -12,7 +12,10 @@
     <string name="beneficii">Beneficii</string>
     <string name="setari">Setari</string>
     <string name="obiecte_pierdute">Obiecte Pierdute</string>
-    <string name="qr_code">QR Code</string>
+    <string name="qr_code">Cod de identificare</string>
     <string name="email">Email</string>
     <string name="parola">Parola</string>
+    <string name="necesitati">Necesitati</string>
+    <string name="text_QR">Poti sa folosesti acest cod la evenimente pentru a acumula puncte</string>
+    <string name="description_imageQRCode">QR Code</string>
 </resources>
