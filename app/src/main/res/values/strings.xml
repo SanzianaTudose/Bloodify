@@ -13,4 +13,6 @@
     <string name="setari">Setari</string>
     <string name="obiecte_pierdute">Obiecte Pierdute</string>
     <string name="qr_code">QR Code</string>
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
 </resources>
