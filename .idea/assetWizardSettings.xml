@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/D:/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_info_outline_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/D:/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_settings_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_info" />
-                            <entry key="sourceFile" value="C:\Users\HP\Desktop\calendar.svg" />
+                            <entry key="outputName" value="ic_settings" />
+                            <entry key="sourceFile" value="C:\Users\HP\Desktop\left-arrow.svg" />
                           </map>
                         </option>
                       </PersistentState>

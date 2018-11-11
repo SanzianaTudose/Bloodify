@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/benefits"
+        android:title="@string/beneficii"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_beneficii"/>
+
+    <item
+        android:id="@+id/lost_objects"
+        android:title="@string/obiecte_pierdute"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_lost_objects"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/setari"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
