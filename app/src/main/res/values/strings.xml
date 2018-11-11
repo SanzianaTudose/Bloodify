@@ -18,4 +18,10 @@
     <string name="necesitati">Necesitati</string>
     <string name="text_QR">Poti sa folosesti acest cod la evenimente pentru a acumula puncte</string>
     <string name="description_imageQRCode">QR Code</string>
+    <string name="info_header1">De ce ai dona sange?</string>
+    <string name="info_content1">In urma donarii de sange, rezistenta organismului la socuri creste. De exemplu, daca vei suferi un accident, reactia organismului ii va ajuta pe medici, acesta fiind deja obisnuit cu pierderea de sange si inlocuirea lui. \n\n Donarea de sange este benefica pentru sanatatea donatorului intrucat sangele este improspatat, imunitatea organismului creste, iar riscul de paralizie si accident vascular se reduc cu 30%.</string>
+    <string name="info_header2">Cat sange se doneaza?</string>
+    <string name="info_content2">La o donare se recolteaza 450 ml de sange, cantitate ce se reface ca volum in cateva ore, celular in 2 saptamani.</string>
+    <string name="info_header3">Ce avantaje are un donator?</string>
+    <string name="info_content3">1. Orice donator are dreptul sa primeasca, la cerere, un buletin de analiza cu rezultatele testelor efectuate. \n2. Donatorii de sange ce doneaza periodic au dreptul sa efectueze un examen radiologic si unul biologic gratuit, in fiecare an.</string>
 </resources>
